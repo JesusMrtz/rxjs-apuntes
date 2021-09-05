@@ -1,10 +1,5 @@
+import { of } from "rxjs";
 
+const numbers$ = of(1, 2, 3);
 
-console.log('Hola Mundo!');
-
-
-
-
-
-
-
+//numbers$.subscribe(console.log);
